@@ -1,3 +1,6 @@
+const String kCoinAPIKey = '92F7D817-9EFC-4AF8-874E-69FE94D94D19';
+const String kCoinAPIURL = 'https://rest.coinapi.io/v1';
+
 const List<String> currenciesList = [
   'AUD',
   'BRL',
@@ -27,5 +30,3 @@ const List<String> cryptoList = [
   'ETH',
   'LTC',
 ];
-
-class CoinData {}
